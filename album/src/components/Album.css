@@ -1,0 +1,52 @@
+.outer{
+    background-color: rgb(0, 0, 0);
+    height: 600px;
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+
+}
+.song{
+    color: white;
+    position: absolute;
+    top: 72%;
+    left: 17%;
+    transform: translate(-50%,-50%);
+    font-weight: 1000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    
+}
+.artist{
+    position: absolute;
+    font-weight: 10;
+    top: 80%;
+    left: 17%;
+    text-decoration: underline;
+    transform: translate(-50%,-50%);
+    color: rgb(134, 131, 131);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.logo{
+width: 300px;
+height: 300px;
+position: absolute;
+top: 35%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+
+.inner{
+    background-color: rgb(25, 24, 24);
+    height: 500px;
+    width: 353px;
+    position: absolute;
+    border-radius: 4px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
